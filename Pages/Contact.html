@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tablette.css">
+    <link rel="shortcut icon" href="../images/Logo_big_foot.png" type="image/x-icon">
+    <title>The big food</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="head-acceuil">
+        <div class="header-icon">
+            <i class="fas fa-bars" id="collapse"></i>
+        </div>
+        <nav id="menu">
+            <a href="../index.html"><img src="../images/Logo_big_foot.png" alt="Logo" width="200" height="200"></a>
+            <ul class="nav">
+                <li><a href="restaurant.html">Restaurants</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li class="dropdown">
+                    <ul class="container-deroulant">
+                        <li  class="dropbtn"><a href="Pages/Cartes.html">Carte</a></li>
+                        <li class="arrow-down"></li>     
+                    </ul>
+                    <ul class="dropdown-content">
+                        <li><a href="Cartes.html">Carte</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                    </ul>
+                </li>
+                <li><a href="reservation.html">Réservations</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div id="reseau-sociaux">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!-- Cover Contact -->
+    <div class="affiche-contact">
+        <img src="../images/cover-contact.png" alt="">
+    </div>
+    <section>
+        <h2 style="text-align:center">Formulaire de contact</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <div id="form-container">
+                    <div class="form-cat">
+                        <div>
+                            <label for="nom">Nom :</label>
+                        </div>
+                        <div>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" autofocus required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-cat">
+                        <div>
+                            <label for="prenom">Prénom :</label>
+                        </div>
+                        <div>
+                            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+                        </div>
+                    </div>
+                    <div class="form-cat">
+                        <div>
+                            <label for="email">Email :</label>                      
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Votre adresse électronique" required>
+                        </div>
+                    </div>
+                    <div class="form-cat">
+                        <div>
+                            <label for="tel">Tél :</label>   
+                        </div>
+                        <div>
+                            <input type="number" name="tel" id="tel" placeholder="Votre numéro de téléphone" required >
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <label for="sexe">Sexe :</label>
+                    <select name="sexe" id="sexe">
+                        <option value="sexe">Genre</option>
+                        <option value="sexe">Homme</option>
+                        <option value="sexe">Femme</option>
+                    </select>
+                </p>
+    
+                <p>Dites-nous en quoi pouvons-nous vous aider ?</p>
+                <p>
+                    <label for="contact-f"></label>
+                    <textarea name="contact-f" id="contact-f" cols="35" rows="5" required></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Effacer">
+                </p>
+            </fieldset> 
+        </form>
+       </section>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer-container">
+            <div class="bas">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Condition générale de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            
+            <div class="bas">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="restaurant.html">Restaurants</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="Cartes.html">Cartes</a> </li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Réservations</a></li>
+                </ul>
+            </div>
+    
+            <div class="bas">
+                <h3>Contactez-nous</h3>
+                <ul id="contact">
+                    <li>Siège social:</li>
+                    <li><a href="https://www.google.com/maps/@48.8622215,2.4358937,16z?hl=fr" target="_blank">Montreuil</a></li>
+                    <li>93100, île-de-France, France</li>
+                    <li><a href="#">Tel : (+33) 1 58 60 78 90 </a></li>               
+                    <li><a href="mailto:?to=contact@edufia.org"> Email : contact@thebigfood.fr</a></li>
+                </ul>
+            </div>
+            <div id="div-logo-sociaux">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div id="slogan">
+            <h1>Mangez bon mangez bien !</h1>
+        </div>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>

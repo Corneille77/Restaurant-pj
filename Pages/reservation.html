@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tablette.css">
+    <link rel="shortcut icon" href="../images/Logo_big_foot.png" type="image/x-icon">
+    <title>The big food</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="head-acceuil">
+        <div class="header-icon">
+            <i class="fas fa-bars" id="collapse"></i>
+        </div>
+        <nav id="menu">
+            <a href="../index.html"><img src="../images/Logo_big_foot.png" alt="Logo" width="200" height="200"></a>
+            <ul class="nav">
+                <li><a href="restaurant.html">Restaurants</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li class="dropdown">
+                    <ul class="container-deroulant">
+                        <li  class="dropbtn"><a href="Pages/Cartes.html">Carte</a></li>
+                        <li class="arrow-down"></li>     
+                    </ul>
+                    <ul class="dropdown-content">
+                        <li><a href="Cartes.html">Carte</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                    </ul>
+                </li>
+                <li><a href="reservation.html">Réservations</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div id="reseau-sociaux">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!-- Cover reservation -->
+    <div class="affiche-reservation">
+        <img src="../images/Réservation.svg" alt="">
+    </div>
+    <!-- text réservation -->
+    <section>
+        <div class="desc-reservation">
+            <h2>RÉSERVATIONS : (+33) 1 58 60 78 90</h2>
+            <p>A partir du premier jour de chaque mois, hors dimanche, les réservations peuvent être faites pour tout le mois suivant. Notre système de réservation en ligne fonctionne 24h/24 et 7j/7. Les réservations ne sont pas acceptées dans le salon.</p>
+            <p>Nous acceptons actuellement les réservations jusqu'au 31 décembre. Les réservations de janvier commenceront le jeudi 1er décembre en ligne via RESY à partir de 7h00 HE pour les groupes de 1 à 4 personnes, par téléphone à 11h00 HE pour les groupes de 5 à 10 personnes. Les informations de carte de crédit sont nécessaires pour valider toutes les réservations.</p>
+            <p>Heures d'ouverture de la ligne de réservation</p>
+            <p>
+                Lundi – Vendredi : 10h00 – 18h00
+                Samedi : 11h00 – 17h00
+                Dimanche : Fermé   
+            </p>
+        </div>
+    </section>
+    <section>
+        <h2 style="text-align:center">Réservez dès maintenant !</h2>
+        <div id="form-reservation">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMbzaUpAdBUTW8u1UjaWRxTNBEbvlcfgVl9hKyRuaG_g_t6w/viewform?embedded=true" width="700" height="930"></iframe>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer-container">
+            <div class="bas">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Condition générale de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            
+            <div class="bas">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="restaurant.html">Restaurants</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="Cartes.html">Cartes</a> </li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Réservations</a></li>
+                </ul>
+            </div>
+    
+            <div class="bas">
+                <h3>Contactez-nous</h3>
+                <ul id="contact">
+                    <li>Siège social:</li>
+                    <li><a href="#" target="_blank">Montreuil</a></li>
+                    <li>93100, île-de-France, France</li>
+                    <li><a href="#">Tel : (+33) 1 58 60 78 90 </a></li>               
+                    <li><a href="#"> Email : contact@thebigfood.fr</a></li>
+                </ul>
+            </div>
+            <div id="div-logo-sociaux">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div id="slogan">
+            <h2>Mangez bon mangez bien !</h2>
+        </div>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
